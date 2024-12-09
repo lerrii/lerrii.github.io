@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Aula</title>
-</head>
 <body>
 
-<h1>Meu nome é</h1>
-<p>Lerriandro Cunha.</p>
-<h1>Universidade Do Paraná</h1>
-<p>Universidade Estadual Ponta Grossa.</p>
-<h1>Projeto</h1>
-<p>Talento Tech.</p>
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+  <label for="fname">Nome:</label><br>
+  <input type="text" id="fname" name="fname" value="Lerriandro"><br>
+  <label for="lname">Sobrenome:</label><br>
+  <input type="text" id="lname" name="lname" value="Cunha"><br><br>
+  <input type="submit" value="Confirmar">
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
 
 </body>
 </html>
